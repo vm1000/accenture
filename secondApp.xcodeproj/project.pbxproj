@@ -14,6 +14,7 @@
 		7F45C65622537D6F000C2FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F45C65422537D6F000C2FEB /* LaunchScreen.storyboard */; };
 		7F45C66122537D6F000C2FEB /* secondAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45C66022537D6F000C2FEB /* secondAppTests.swift */; };
 		7F45C66C22537D6F000C2FEB /* secondAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45C66B22537D6F000C2FEB /* secondAppUITests.swift */; };
+		7F45C67B22538E0B000C2FEB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F45C67A22538E0B000C2FEB /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7F45C66722537D6F000C2FEB /* secondAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = secondAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F45C66B22537D6F000C2FEB /* secondAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondAppUITests.swift; sourceTree = "<group>"; };
 		7F45C66D22537D6F000C2FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F45C67A22538E0B000C2FEB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F45C67B22538E0B000C2FEB /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				7F45C65F22537D6F000C2FEB /* secondAppTests */,
 				7F45C66A22537D6F000C2FEB /* secondAppUITests */,
 				7F45C64922537D6D000C2FEB /* Products */,
+				7F45C67922538E0B000C2FEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				7F45C66D22537D6F000C2FEB /* Info.plist */,
 			);
 			path = secondAppUITests;
+			sourceTree = "<group>";
+		};
+		7F45C67922538E0B000C2FEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F45C67A22538E0B000C2FEB /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
